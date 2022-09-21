@@ -1,0 +1,22 @@
+{
+  "name": "my-monochrome-light",
+  "displayName": "Willfixlater's Monochrome Ligh Theme",
+  "description": "My monochrome light theme for VS Code",
+  "repository": "https://github.com/willfixlater/vscode-monochrome-light-theme",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.71.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "My Monochrome Light",
+        "uiTheme": "vs",
+        "path": "./themes/my-monochrome-light-color-theme.json"
+      }
+    ]
+  }
+}
