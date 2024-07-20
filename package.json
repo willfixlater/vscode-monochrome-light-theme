@@ -3,6 +3,7 @@
   "displayName": "Willfixlater's Monochrome Ligh Theme",
   "description": "My monochrome light theme for VS Code",
   "repository": "https://github.com/willfixlater/vscode-monochrome-light-theme",
+  "publisher": "willfixlater",
   "version": "1.0.0",
   "engines": {
     "vscode": "^1.71.0"
@@ -18,5 +19,8 @@
         "path": "./themes/my-monochrome-light-color-theme.json"
       }
     ]
+  },
+  "devDependencies": {
+    "@vscode/vsce": "2.31.1"
   }
 }

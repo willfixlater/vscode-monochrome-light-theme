@@ -1,16 +1,25 @@
 # my-monochrome-light README
 
-## Working with Markdown
+## Requirements
+- Node 20.9.0+ (LTS)
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+## Getting  Started
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+### Install local deps with
+```bash
+npm i
+```
 
-## For more information
+### Package the extension to prepare it for local installation
+```bash
+npx vsce package
+```
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+That should create a file in the project directory with a name like:
+`my-monochrome-light-<version>.vsix`
 
-**Enjoy!**
+### Install a local extension
+From inside VS Code, hit ctrl+shift+p to launch the command palette and search
+for the command: `Extensions: Install from VSIX...`. Then from the Explorer
+window it launches, navigate to the `.vsix` file created in the previous
+section and select it.
